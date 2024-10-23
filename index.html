@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Application</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Quiz Application</h1>
+        <h2>Select Quiz:</h2>
+        <div class="button-container">
+            <button onclick="startQuiz('week1')">Week 1</button>
+            <button onclick="startQuiz('week2')">Week 2</button>
+            <button onclick="startQuiz('week3')">Week 3</button>
+            <button onclick="startQuiz('week4')">Week 4</button>
+            <button onclick="startQuiz('week5')">Week 5</button>
+            <button onclick="startQuiz('week6')">Week 6</button>
+            <button onclick="startQuiz('week7')">Week 7</button>
+            <button onclick="startQuiz('week8')">Week 8</button>
+            <button onclick="startQuiz('week9')">Week 9</button>
+            <button onclick="startQuiz('week10')">Week 10</button>
+            <button onclick="startQuiz('week11')">Week 11</button>
+            <button onclick="startQuiz('week12')">Week 12</button>
+            <button onclick="startQuiz('week1to6')">Week 1 to 6</button>
+            <button onclick="startQuiz('week7to12')">Week 7 to 12</button>
+            <button onclick="startQuiz('week1to12')">Week 1 to 12</button>
+        </div>
+
+        <div id="quizContainer" class="hidden quiz-container">
+            <div id="questionContainer"></div>
+            <button id="nextButton" class="hidden next-button" onclick="nextQuestion()">Next</button>
+        </div>
+
+        <div id="quizContainer" class="hidden">
+            <div id="questionContainer"></div>
+            <button id="nextButton" class="hidden" onclick="nextQuestion()">Next</button>
+        </div>
+        
+        <div id="resultContainer" class="hidden">
+            <h3>Quiz Results</h3>
+            <p id="score"></p>
+            <ul id="incorrectQuestions"></ul>
+        </div>
+        
+    </div>
+       
+    <script src="script.js"></script>
+</body>
+</html>
