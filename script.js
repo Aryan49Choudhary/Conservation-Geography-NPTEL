@@ -152,7 +152,7 @@ const questions = {
         {
             question: "Which of these are correctly arranged as per Moh's scale from softest to hardest?",
             options: ["talc, apatite, fluorite, diamond", "talc, calcite, feldspar, diamond", "talc, fluorite, apatite, diamond", "diamond, feldspar, calcite, talc"],
-            answer: 1
+            answer: 2
         }        
     ],
     week4: [
@@ -780,7 +780,7 @@ const combinedWeeks = {
         {
             question: "Which of these are correctly arranged as per Moh's scale from softest to hardest?",
             options: ["talc, apatite, fluorite, diamond", "talc, calcite, feldspar, diamond", "talc, fluorite, apatite, diamond", "diamond, feldspar, calcite, talc"],
-            answer: 1
+            answer: 2
         },
         {
             question: "Which of these is the densest layer?",
@@ -1690,7 +1690,7 @@ const combinedWeeks = {
         {
             question: "Which of these are correctly arranged as per Moh's scale from softest to hardest?",
             options: ["talc, apatite, fluorite, diamond", "talc, calcite, feldspar, diamond", "talc, fluorite, apatite, diamond", "diamond, feldspar, calcite, talc"],
-            answer: 1
+            answer: 2
         },
         {
             question: "Which of these is the densest layer?",
